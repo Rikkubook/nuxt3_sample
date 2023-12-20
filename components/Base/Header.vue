@@ -1,13 +1,22 @@
-<script lang="ts" setup></script>
 
 <template>
-  <div class="header">
-    Component: Footer
-  </div>
+  <header class="header">
+    <div>
+      <h1 class="logH1">
+        <a href="">
+          <img src="https://media.flaticon.com/dist/min/img/logos/flaticon-color-negative.svg" alt="">
+        </a>
+        LOGO
+      </h1>
+      <BaseNavBare />
+    </div>
+    <div>
+      <BaseSearchBar />
+    </div>
+
+  </header>
 </template>
 
-<style scoped>
-.header{
-  background-color: #4d6eb4;
-}
-</style>
+<script setup>
+
+</script>

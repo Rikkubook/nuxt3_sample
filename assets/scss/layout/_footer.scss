@@ -1,0 +1,51 @@
+.footer{
+  position: relative;
+  text-align: center;
+  .footer__media{
+    margin-bottom: 1.56vw;
+    display: inline-block;
+    .footer__media__list{
+      margin-bottom: 11px;
+      display: flex;
+      justify-content: center;
+      li{
+        padding: 0 11px;
+        a{
+          display: inline-block;
+        }
+        img{
+          width: 2.08vw;
+        }
+      }
+    }
+    .footer__media__mercci22{
+      width: 13.95vw;
+    }
+  }
+
+  .footer__bottom{
+    .footer__bottom__bgc{
+      @include _absoluteBgc;
+      position: relative;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .footer{
+    .footer__media{
+      margin-bottom: 6.88vw;
+      .footer__media__list{
+        li{
+          padding: 0 10px;
+          img{
+            width: 5.55vw;
+          }
+        }
+      }
+      .footer__media__mercci22{
+        width: 40.77vw;
+      }
+    }
+  }
+}

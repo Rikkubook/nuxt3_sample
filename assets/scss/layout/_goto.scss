@@ -1,0 +1,16 @@
+.go-top{
+  position: fixed;
+  right: 3.64vw;
+  bottom: 100px;
+  width: 5.46vw;
+  z-index: 98;
+  cursor: pointer;
+  img{
+    width: 100%;
+  }
+  @media (max-width: 900px) {
+    width: 13vw;
+  }
+}
+
+

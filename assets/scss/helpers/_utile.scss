@@ -1,0 +1,38 @@
+.open-sans {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-style: normal;
+}
+.text-center{
+  text-align: center;
+}
+.cursor-auto{
+  cursor: auto !important;
+}
+
+
+.text-mainColor{
+  color: $main-color;
+}
+
+.d-none{
+  display: none;
+}
+.d-mb-none{
+  @media (min-width:900.99px) {
+    display: none;
+  }
+}
+
+.d-mb-block{
+  @media (min-width:900.99px) {
+    display: block;
+  }
+}
+
+.d-mb-inline-block{
+  @media (min-width:900.99px) {
+    display: inline-block;
+  }
+}
+

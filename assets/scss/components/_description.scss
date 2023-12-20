@@ -1,0 +1,37 @@
+.description{
+  .description__main{
+    padding-top: 3.02vw;
+    padding-bottom: 4.166vw;
+    text-align: center;
+    font-size: clamp(14px, 1.14vw, 22px);
+    line-height: 1.6;
+    color: $second-color;
+
+    p{
+      position: relative;
+      display: inline-block;
+    }
+    img{
+      position: absolute;
+      max-width: 6.51vw;
+      left: 77%;
+      bottom: -26%;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .description{
+    .description__main{
+      padding-top: 4.44vw;
+      padding-bottom: 16.26vw;
+      font-size: clamp(14px, 3.11vw, 28px);
+
+      img{
+        max-width: 17vw;
+        left: 75%;
+      }
+    }
+  }
+  
+}

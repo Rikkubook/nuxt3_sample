@@ -1,0 +1,203 @@
+// // .form {
+// //   margin-bottom: 2.5vw;
+// // }
+// .form-group {
+//   display: flex;
+//   align-items: center;
+//   margin-bottom: 0.83vw;
+//   label {
+//     flex-shrink: 0;
+//     margin-right: 10px;
+//     font-size: clamp(14px, 0.83vw, 16px);
+//     &.label--select::after {
+//       content: "";
+//       display: inline-block;
+//       border-style: solid;
+//       margin: 0 0 0 10px;
+//       border-width: 10px 7.5px 0 7.5px;
+//       border-color: $second-color transparent transparent transparent;
+//     }
+//   }
+//   select {
+//     flex: 1;
+//     color: $second-color;
+//     border-radius: 0;
+//     appearance: none;
+//     -moz-appearance: none;
+//     -webkit-appearance: none;
+//     border: none;
+//     border-bottom: 1px solid $second-color;
+//     background: transparent;
+//     text-align: center;
+//     font-size: clamp(14px, 0.83vw, 16px);
+//     font-weight: 500;
+//     font-family: "Open Sans", "Noto Sans TC", "Noto Sans SC", sans-serif;
+//     option {
+//       text-align: center;
+//       color: #263146;
+//       &:disabled {
+//         color: rgba(170, 170, 170, 0.8);
+//       }
+//     }
+//   }
+//   input {
+//     flex: 1;
+//     color: $second-color;
+//     border-radius: 0;
+//     border: none;
+//     border-bottom: 1px solid $second-color;
+//     background: transparent;
+//     text-align: center;
+//     font-size: clamp(14px, 0.83vw, 16px);
+//     font-weight: 500;
+//     font-family: "Open Sans", "Noto Sans TC", "Noto Sans SC", sans-serif;
+//     &::placeholder {
+//       color: $second-color;
+//       opacity: 0.7;
+//     }
+//   }
+//   input:-webkit-autofill,
+//   input:-webkit-autofill:hover,
+//   input:-webkit-autofill:focus,
+//   textarea:-webkit-autofill,
+//   textarea:-webkit-autofill:hover,
+//   textarea:-webkit-autofill:focus,
+//   select:-webkit-autofill,
+//   select:-webkit-autofill:hover,
+//   select:-webkit-autofill:focus {
+//     -webkit-text-fill-color: $main-color;
+//     color: $main-color;
+//     border-radius: 0;
+//     border: none;
+//     border-bottom: 1px solid $main-color;
+//     background: transparent;
+//     text-align: center;
+//     font-size: clamp(14px, 0.83vw, 16px);
+//     font-weight: 500;
+//     font-family: "Open Sans", "Noto Sans TC", "Noto Sans SC", sans-serif;
+//   }
+//   &--store {
+//     .store-desc {
+//       flex: 1;
+//       align-self: end;
+//       margin-left: 10px;
+//       border-bottom: 1px solid $second-color;
+//     }
+//   }
+//   &--phone {
+//     select {
+//       height: 103%;
+//     }
+//     .select-arrow {
+//       flex: 0 0 20%;
+//       display: flex;
+//       align-items: center;
+//       &::after {
+//         content: "";
+//         display: inline-block;
+//         border-style: solid;
+//         margin: 0 10px;
+//         border-width: 10px 7.5px 0 7.5px;
+//         border-color: $second-color transparent transparent transparent;
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 900px) {
+//   .form {
+//     margin-bottom: 14.4vw;
+//   }
+//   .form-group {
+//     label {
+//       flex-shrink: 0;
+//       font-size: clamp(14px, 2.6vw, 24px);
+//       text-align: left;
+//       margin-right: 10px;
+//       &.label--select::after {
+//         margin: 0 0 0 10px;
+//         border-width: 9px 8px 0 8px;
+//       }
+//     }
+//     select {
+//       font-size: clamp(14px, 2.6vw, 24px);
+//     }
+//     input {
+//       font-size: clamp(14px, 2.6vw, 24px);
+//     }
+//     &--store {
+//       flex-wrap: wrap;
+//       align-items: center;
+//       button {
+//         margin-top: 5px;
+//         order: 1;
+//       }
+//       .store-desc {
+//         flex: auto;
+//         height: 24px;
+//         width: 40%;
+//         margin-left: 0;
+//         overflow: hidden;
+//       }
+//     }
+//     &--phone {
+//       .select-arrow {
+//         &::after {
+//           margin: 0 5px;
+//           border-width: 9px 8px 0 8px;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 576px) {
+//   .form-group {
+//     margin-bottom: 2.22vw;
+//     label {
+//       margin-right: 5px;
+//       &.label--select::after {
+//         margin: 0 0 0 5px;
+//         border-width: 7px 6px 0 6px;
+//       }
+//     }
+//     &--store {
+//       label {
+//         margin-bottom: 2.22vw;
+//       }
+//       .store-desc {
+//         height: 24px;
+//         width: 100%;
+//         margin-left: 0;
+//         margin-bottom: 2.22vw;
+//         overflow: hidden;
+//       }
+//       button {
+//         margin-top: 0;
+//       }
+//     }
+//     &--wrap {
+//       flex-wrap: wrap;
+//       label {
+//         margin-bottom: 5px;
+//       }
+//       input {
+//         flex: auto;
+//         width: 100%;
+//       }
+//     }
+//     &--phone {
+//       flex-wrap: wrap;
+//       .select-arrow {
+//         flex: 1;
+//         &::after {
+//           margin: 0 5px;
+//           border-width: 7px 6px 0 6px;
+//         }
+//       }
+//       input {
+//         margin-top: 5px;
+//       }
+//     }
+//   }
+// }

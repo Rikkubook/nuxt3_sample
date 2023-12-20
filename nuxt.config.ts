@@ -11,9 +11,9 @@ export default defineNuxtConfig({
   ],
   alias: {
     '@images': resolve(__dirname, './assets/images'),
-    '@scss': resolve(__dirname, './scss'),
+    '@scss': resolve(__dirname, './assets/scss'),
   },
-  css: [ '@/scss/all.scss'],
+  css: [ '@/assets/scss/all.scss'],
   modules: ['@pinia/nuxt'],
   imports: {
     "dirs": ['stores']

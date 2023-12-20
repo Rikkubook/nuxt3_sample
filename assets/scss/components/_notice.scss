@@ -1,0 +1,32 @@
+.notice{
+  padding-bottom: 13.12vw;
+  div{
+    text-align: left;
+    color: $second-color;
+  }
+  h3{
+    font-size: clamp(14px, 1.56vw, 30px);
+    margin-bottom: 2vw;
+    line-height: 1;
+  }
+  ol li{
+    font-size: clamp(14px, 0.83vw, 16px);
+    line-height: 2.25;
+    text-indent: -1.5em;
+    padding-left: 1.5em;
+  }
+}
+
+@media (max-width: 900px) {
+  .notice{
+    padding-bottom: 20vw;
+    h3{
+      font-size: clamp(14px, 3.3vw, 30px);
+      margin-bottom: 2.2vw;
+    }
+    ol li{
+      font-size: clamp(14px, 2.6vw, 24px);
+      line-height: 1.75;
+    }
+  }
+}

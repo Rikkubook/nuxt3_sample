@@ -1,0 +1,44 @@
+.btn{
+  display: inline-block;
+  padding: 1.7vw 1.45vw;
+  min-width: 13.9vw;
+  border-radius: 70px;
+  background-color: $three-color;
+  color:  $second-color;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Open Sans", "Noto Sans TC", sans-serif;
+  font-size: clamp(14px, 1.35vw, 26px);
+  font-weight: 500;
+  line-height: 1.3;
+  &--small{
+    font-size: clamp(14px, 0.833vw, 16px);
+    padding: 0.83vw 1.04vw;
+    min-width: auto;
+  }
+  &--blue{
+    background-color: $second-color;
+    color: #fff;
+    font-weight: 400;
+    &:hover{
+      background-color: $second-color;
+      color: #fff;
+    }
+  }
+  &--store{
+    background-color: $three-color;
+  }
+  &--disabled{
+    background-color: rgb(224, 224, 224);
+  }
+  @media (max-width: 900px) {
+    padding: 2.8vw 2.8vw;
+    min-width: 29.66vw;
+    font-size: clamp(14px, 2.88vw, 26px);
+    &--small{
+      font-size: clamp(14px, 2.22vw, 20px);
+      padding: 1.5vw 2.8vw;
+    }
+  }
+}

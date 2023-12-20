@@ -1,0 +1,38 @@
+.process{
+  padding-bottom: 5.88vw;
+  > div{
+    text-align: left;
+    font-size: clamp(14px, 0.93vw, 18px);
+    line-height: 2;
+    color: $second-color;
+    h2{
+      font-size: clamp(14px, 1.14vw, 22px);
+      line-height: 1;
+      margin-bottom: 1.04vw;
+    }
+  }
+  .process__step{
+    text-indent: -4em;
+    padding-left: 4em;
+  }
+}
+
+@media (max-width: 900px) {
+  .process{
+    padding-bottom: 9.33vw;
+    > div{
+      line-height: 1.71;
+      font-size: clamp(14px, 2.66vw, 24px);
+      h2{
+        font-size: clamp(14px, 3.11vw, 28px);
+        line-height: 1;
+        margin-bottom: 4.44vw;
+      }
+    }
+  }
+  .process__time{
+    font-size: clamp(14px, 2.88vw, 26px);
+    line-height: 1;
+    margin-bottom: 5.3vw;
+  }
+}
