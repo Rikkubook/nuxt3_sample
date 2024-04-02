@@ -1,8 +1,8 @@
 <template>
   <h1>news</h1>
   <p>{{  data }}</p>
-  <p>{{  data.age }}</p>
-  <p>{{  data.postData.hello }}</p>
+  <p>{{  data?.age }}</p>
+  <p>{{  data.postData?.hello }}</p>
 </template>
 
 <script setup>

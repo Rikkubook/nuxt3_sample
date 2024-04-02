@@ -1,3 +1,3 @@
 export default defineEventHandler((event) => {
-  console.log('servermiddleware',event.node.req.url);
+  console.log('serverMiddleware',event.node.req.url);
 });
