@@ -2,6 +2,7 @@
   <div>
     <BoxLayout>
       我是盒子內容
+      <BoxBtn />
     </BoxLayout>
   </div>
 </template>
