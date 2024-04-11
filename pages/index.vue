@@ -1,8 +1,8 @@
 <template>
   <h1>首頁</h1>
   <Box />
-  <p>{{  count }}</p>
- 
+  <p>{{ count }}</p>
+  <BaseBtn>A</BaseBtn>
   <button @click="store.add">notify</button>
 </template>
 
@@ -10,7 +10,6 @@
 // import { useHomeStore } from '@store/useHomeStore'
 // import '@scss/all.scss';
 
-const store = useHomeStore()
-const { count } = storeToRefs(store)
-
+const store = useHomeStore();
+const { count } = storeToRefs(store);
 </script>

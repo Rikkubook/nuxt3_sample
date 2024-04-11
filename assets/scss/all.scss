@@ -6,24 +6,19 @@
 @import "helpers/utile";
 
 // 元件
-@import "module/btn";
-@import "module/link";
-@import "module/form";
+@import "components/base/btn";
+@import "components/base/link";
+@import "components/base/form";
 
 // 頁面
-@import "layout/header";
+@import "components/layout/header";
 // @import "layout/footer";
 // @import "layout/main";
 // @import "layout/goto";
 // @import "layout/modal";
 // @import "layout/popup";
 
-@import "components/description";
-@import "components/process";
-@import "components/notice";
-@import "components/event";
-
-
-
-
-
+@import "pages/description";
+@import "pages/process";
+@import "pages/notice";
+@import "pages/event";
