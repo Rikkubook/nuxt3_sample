@@ -3,7 +3,19 @@ import { resolve } from 'path';
 
 
 export default defineNuxtConfig({
-  ssr: false,
+  app:{
+    head: {
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap",
+        },
+      ],
+    }
+  },
+  devServer: {
+    port: 3100,
+  },
   devtools: { enabled: true },
   plugins: [
     "~/plugins/hello.js",
