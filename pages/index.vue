@@ -12,4 +12,15 @@
 
 const store = useHomeStore();
 const { count } = storeToRefs(store);
+
+const api = import.meta.env;
+
+const { data: article } = await useAsyncData("article", () =>
+  $fetch(api.API_ARTICLE_LIST),
+);
+
+const { data: person } = await useFetch("https://randomuser.me/api/");
+
+console.log("article", article);
+console.log("person", person);
 </script>

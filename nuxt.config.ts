@@ -13,19 +13,25 @@ export default defineNuxtConfig({
       ],
     }
   },
+  css: [ '@/assets/scss/all.scss'],
+  alias: {
+    '@images': resolve(__dirname, './assets/images'),
+    '@scss': resolve(__dirname, './assets/scss'),
+  },
   devServer: {
     port: 3100,
+  },
+  vite: {
+    define: {
+      "process.env": process.env,
+    },
+    envPrefix: 'API_'
   },
   devtools: { enabled: true },
   plugins: [
     "~/plugins/hello.js",
     "~/plugins/localStorage.js",
   ],
-  alias: {
-    '@images': resolve(__dirname, './assets/images'),
-    '@scss': resolve(__dirname, './assets/scss'),
-  },
-  css: [ '@/assets/scss/all.scss'],
   modules: ['@pinia/nuxt'],
   imports: {
     "dirs": ['stores']
