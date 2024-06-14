@@ -1,0 +1,29 @@
+{
+  "Code": 200,
+  "Message": null,
+  "Description": null,
+  "Response": {
+    "Categories": [
+      {
+        "Code": "Overview",
+        "Name": "總覽"
+      },
+      {
+        "Code": "Popular",
+        "Name": "熱門文章"
+      },
+      {
+        "Code": "Laser",
+        "Name": "皮膚雷射"
+      },
+      {
+        "Code": "Facial",
+        "Name": "塑顏微整"
+      },
+      {
+        "Code": "Firming",
+        "Name": "緊緻提拉"
+      }
+    ]
+  }
+}

@@ -20,5 +20,14 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.disableLanguages": []
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css",
+    "vue": "html",
+    "vue-html": "html",
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
 }

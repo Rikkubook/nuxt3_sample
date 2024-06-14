@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  font-family: "PingFang SC", "PingFang TC", PingFang, "Noto Sans",
+    "Noto Sans TC", "微軟正黑體", Arial, sans-serif;
+  letter-spacing: 1.2px;
+  scroll-behavior: smooth;
+  color: #505050;
+}

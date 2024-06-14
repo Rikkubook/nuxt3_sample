@@ -1,0 +1,69 @@
+{
+  "Code": 200,
+  "Message": null,
+  "Description": null,
+  "Response": {
+    "CategoryCode": "All",
+    "CategoryName": "All",
+    "TotalCount": 2,
+    "Page": 1,
+    "PageCount": 2,
+    "PageSize": 2,
+    "Data": [
+      {
+        "ID": 1,
+        "Title": "愛語莎｜大推海芙音波緊緻拉提效果",
+        "CoverImage": "https://static.tpx.tw/sff/momijiclinic/static/img/beauty-01.png",
+        "PostTime": "2023/03/17",
+        "Summary": "「修飾緊致下顎，肌膚回彈有感！」幫助找回緊實彈性及立體輪廓線。",
+        "Content": "<p>隨著2023年的到來，我們看到了許多令人興奮的女裝流行趨勢。本季的設計風格將會有更創新、 更多元化的風格，總有一種風格適合你。下面就讓我們來看看2023春季女裝流行趨勢吧！</p>",
+        "Tag": ["APPAREL", "APPAREL", "APPAREL"]
+      },
+      {
+        "ID": 2,
+        "Title": "Miars｜讓圓圓臉蛻變小V臉肉毒瘦臉跟咀嚼肌說掰掰",
+        "CoverImage": "https://static.tpx.tw/sff/momijiclinic/static/img/beauty-02.png",
+        "PostTime": "2023/03/17",
+        "Summary": "「擺脫咀嚼肌，重現輪廓滑順線！」年度保養必備，肉毒重獲美顏小臉",
+        "Content": "<p>開通GIVE ME 5%即可獲得個人專屬連結，朋友使用您的連結消費全站商品均享有95折優惠。 同時您可獲得消費金額5%的分享回饋金，UR LIVING讓您『超簡單、超輕鬆、超好賺 』!</p>",
+        "Tag": ["EVENT", "URLIVING"]
+      },
+      {
+        "ID": 3,
+        "Title": "趙心姸｜十倍鳳凰電波緊膚拉提一次到位",
+        "CoverImage": "https://static.tpx.tw/sff/momijiclinic/static/img/beauty-03.png",
+        "PostTime": "2023/03/17",
+        "Summary": "「雕塑下顎輪廓，輕鬆重現年輕臉龐」活化膠原，緊實拉提老化肌膚。",
+        "Content": "<p>開通GIVE ME 5%即可獲得個人專屬連結，朋友使用您的連結消費全站商品均享有95折優惠。 同時您可獲得消費金額5%的分享回饋金，UR LIVING讓您『超簡單、超輕鬆、超好賺 』!</p>",
+        "Tag": []
+      },
+      {
+        "ID": 4,
+        "Title": "美麗案例｜舒顏萃童妍針漸進優雅抗老，低調重拾年輕",
+        "CoverImage": "https://static.tpx.tw/sff/momijiclinic/static/img/beauty-04.png",
+        "PostTime": "2023/03/17",
+        "Summary": "「擺脫淚溝，告別倦容苦命相！」自體漸漸長出膠原蛋白。",
+        "Content": "<p>開通GIVE ME 5%即可獲得個人專屬連結，朋友使用您的連結消費全站商品均享有95折優惠。 同時您可獲得消費金額5%的分享回饋金，UR LIVING讓您『超簡單、超輕鬆、超好賺 』!</p>",
+        "Tag": []
+      },
+      {
+        "ID": 5,
+        "Title": "飛飛｜送自己母親節大禮再次讚嘆海芙音波",
+        "CoverImage": "https://static.tpx.tw/sff/momijiclinic/static/img/beauty-05.png",
+        "PostTime": "2023/03/17",
+        "Summary": "「嘴邊肉整個往上提縮進去了！」改善臉頰不均，整體輪廓線上提。",
+        "Content": "<p>開通GIVE ME 5%即可獲得個人專屬連結，朋友使用您的連結消費全站商品均享有95折優惠。 同時您可獲得消費金額5%的分享回饋金，UR LIVING讓您『超簡單、超輕鬆、超好賺 』!</p>",
+        "Tag": []
+      },
+      {
+        "ID": 5,
+        "Title": "Ｋe｜客製雙皮秒雷射輕鬆擁有水煮蛋肌",
+        "CoverImage": "https://static.tpx.tw/sff/momijiclinic/static/img/beauty-06.png",
+        "PostTime": "2023/03/17",
+        "Summary": "「超有感煥膚，重現無暇透亮裸肌」幫助找回緊實彈性及立體輪廓線。",
+        "Content": "<p>開通GIVE ME 5%即可獲得個人專屬連結，朋友使用您的連結消費全站商品均享有95折優惠。 同時您可獲得消費金額5%的分享回饋金，UR LIVING讓您『超簡單、超輕鬆、超好賺 』!</p>",
+        "Tag": []
+      }
+    ]
+  }
+}

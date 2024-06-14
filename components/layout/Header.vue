@@ -8,10 +8,8 @@
         </a>
         LOGO
       </h1>
-      <BaseNavBare />
     </div>
     <div>
-      <BaseSearchBar />
     </div>
 
   </header>

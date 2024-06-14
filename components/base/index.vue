@@ -1,9 +1,9 @@
 <template>
   <div>
-    <BoxLayout>
+    <BaseLayout>
       我是盒子內容
-      <BoxBtn />
-    </BoxLayout>
+      <BaseBtn />
+    </BaseLayout>
   </div>
 </template>
 

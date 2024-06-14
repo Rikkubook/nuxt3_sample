@@ -13,7 +13,10 @@ export default defineNuxtConfig({
       ],
     }
   },
-  css: [ '@/assets/scss/all.scss'],
+  css: [ '@/assets/css/main.css'],
+  colorMode: {
+    preference: "light",
+  },
   alias: {
     '@images': resolve(__dirname, './assets/images'),
     '@scss': resolve(__dirname, './assets/scss'),
@@ -32,8 +35,14 @@ export default defineNuxtConfig({
     "~/plugins/hello.js",
     "~/plugins/localStorage.js",
   ],
-  modules: ['@pinia/nuxt'],
+  modules: ['@pinia/nuxt', "@nuxt/image", "@nuxt/ui"],
   imports: {
     "dirs": ['stores']
-  }
+  },
+  image: {
+    // domains: ["static.tpx.tw"],
+    // alias: {
+    //   wo5: "https://static.tpx.tw/sff/wo5/static/img/",
+    // },
+  },
 })
